@@ -97,7 +97,7 @@ python manual_scans/aws/aws-ns-subdomain.py --profile PROFILE_NAME
 
 ## assume role from another AWS account
 * log in to the AWS console in the audit account
-* start CloudShell in a region which supports it, e.g. eu-west-1
+* start CloudShell in a region which supports it, e.g. ap-northeast-2
 * upload relevant files from your desktop  
 * edit the example below with the AWS account number of the target account, the role name, and the role session name
 ```

@@ -5,7 +5,7 @@ variable "project" {
 
 variable "region" {
   description = "AWS region to deploy Lambda functions"
-  default     = "eu-west-1"
+  default     = "ap-northeast-2"
 }
 
 variable "org_primary_account" {
@@ -195,5 +195,5 @@ variable "ip_address" {
 
 variable "allowed_regions" {
   description = "If SCPs block certain regions across all accounts, optionally replace with string formatted list of allowed regions"
-  default     = "['all']" # example "['eu-west-1', 'us-east-1']"
+  default     = "['all']" # example "['ap-northeast-2', 'us-east-1']"
 }

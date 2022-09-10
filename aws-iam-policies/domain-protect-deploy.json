@@ -36,7 +36,7 @@
         "events:TagResource",
         "events:UntagResource"
       ],
-      "Resource": "arn:aws:events:eu-west-1:SECURITY_AWS_ACCOUNT_ID:rule/domain-protect-*"
+      "Resource": "arn:aws:events:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:rule/domain-protect-*"
     },
     {
       "Effect": "Allow",
@@ -116,7 +116,7 @@
         "lambda:UpdateFunctionConfiguration",
         "lambda:UpdateFunctionEventInvokeConfig"
       ],
-      "Resource": "arn:aws:lambda:eu-west-1:SECURITY_AWS_ACCOUNT_ID:function:domain-protect-*"
+      "Resource": "arn:aws:lambda:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:function:domain-protect-*"
     },
     {
       "Effect": "Allow",
@@ -133,7 +133,7 @@
         "sns:TagResource",
         "sns:UntagResource"
       ],
-      "Resource": "arn:aws:sns:eu-west-1:SECURITY_AWS_ACCOUNT_ID:domain-protect-*"
+      "Resource": "arn:aws:sns:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:domain-protect-*"
     },
     {
       "Effect": "Allow",
@@ -157,7 +157,7 @@
         "dynamodb:UpdateContinuousBackups",
         "dynamodb:UpdateTable"
       ],
-      "Resource": "arn:aws:dynamodb:eu-west-1:SECURITY_AWS_ACCOUNT_ID:table/DomainProtect*"
+      "Resource": "arn:aws:dynamodb:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:table/DomainProtect*"
     },
     {
       "Effect": "Allow",
@@ -169,7 +169,7 @@
         "states:TagResource",
         "states:UntagResource"
       ],
-      "Resource": "arn:aws:states:eu-west-1:SECURITY_AWS_ACCOUNT_ID:stateMachine:domain-protect-*"
+      "Resource": "arn:aws:states:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:stateMachine:domain-protect-*"
     },
     {
       "Effect": "Allow",
@@ -186,8 +186,8 @@
         "logs:UntagLogGroup"
       ],
       "Resource": [
-        "arn:aws:logs:eu-west-1:SECURITY_AWS_ACCOUNT_ID:log-group::log-stream:",
-        "arn:aws:logs:eu-west-1:SECURITY_AWS_ACCOUNT_ID:log-group:/aws/vendedlogs/states/*:log-stream:"
+        "arn:aws:logs:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:log-group::log-stream:",
+        "arn:aws:logs:ap-northeast-2:SECURITY_AWS_ACCOUNT_ID:log-group:/aws/vendedlogs/states/*:log-stream:"
       ]
     }
   ]

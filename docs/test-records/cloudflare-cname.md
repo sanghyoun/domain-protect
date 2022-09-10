@@ -11,6 +11,6 @@
 
 |Type|Name|Content|Proxy Status|TTL|
 |----|----|-------|------------|---|
-|CNAME|thehappycloud.co|s3-public-bucket-policy.s3.eu-west-1.amazonaws.com|Proxied|Auto|
+|CNAME|thehappycloud.co|s3-public-bucket-policy.s3.ap-northeast-2.amazonaws.com|Proxied|Auto|
 
 [Back to Manual Tests](../manual-tests.md)
